@@ -29,17 +29,17 @@ make install
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from seek_rag_playground import BaseClass
+from seek_rag_playground import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m seek_rag_playground
 #or
-$ project_name
+$ seek_rag_playground
 ```
 
 ## Development
@@ -65,7 +65,7 @@ Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 - 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/)
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <seek_rag_playground>` or `$ seek_rag_playground` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
